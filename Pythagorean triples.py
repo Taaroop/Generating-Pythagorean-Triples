@@ -6,7 +6,7 @@ def p_triples(a, b):
         for n in range(a, b+1):
             x = 2*m*n
             y = abs((m**2) - (n**2))
-            z = (m**2) + (n**2)
+            z = (m**2) + (n**2)         # See notes for detailed mathematical explanations and derivation
             if z > b:
                 return superset
             else:
